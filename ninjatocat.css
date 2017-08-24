@@ -1,0 +1,51 @@
+#pics{
+  display:block;
+  width:260px;
+}
+#part1{
+  height:100px;
+  width:500px;
+}
+#part2{
+display:none;
+  position:relative;
+  height:100px;
+  width:500px;
+}
+#part3{
+  height:100px;
+  width:500px;
+}
+
+#part4{
+  display:none;
+  height:100px;
+  width:500px;
+}
+#part5{
+  height:100px;
+  width:500px;
+}
+#part6{
+  display:none;
+  height:100px;
+  width:500px;
+}
+#part7{
+   height:100px;
+  width:500px;
+}
+#part8{
+  display:none;
+  height:100px;
+  width:500px;
+}
+#part9{
+   height:100px;
+  width:500px;
+}
+#part10{
+  display:none;
+  height:100px;
+  width:500px;
+}

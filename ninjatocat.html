@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ninja To Cat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="ninjatocat.css">
+  </head>
+  <body>
+    <div id="pics">
+      <img id="part1" src="before1.jpg">
+      <img id="part2" src="after1.png">
+      <img id="part3" src="before2.jpg">
+      <img id="part4" src="after2.png">
+      <img id="part5" src="before3.jpg">
+      <img id="part6" src="after3.png">
+      <img id="part7" src="before4.jpg">
+      <img id="part8" src="after4.png">
+      <img id="part9" src="before5.jpg">
+      <img id="part10" src="after5.png">
+
+    </div>
+    <script>
+  $("#part1").click(function(){
+$("#part2").toggle();
+$("#part1").toggle();
+});
+$("#part2").click(function(){
+  $("#part1").toggle();
+  $("#part2").toggle();
+});
+$("#part3").click(function(){
+$("#part4").toggle();
+$("#part3").toggle();
+});
+$("#part4").click(function(){
+$("#part3").toggle();
+$("#part4").toggle();
+});
+$("#part5").click(function(){
+$("#part6").toggle();
+$("#part5").toggle();
+});
+$("#part6").click(function(){
+$("#part5").toggle();
+$("#part6").toggle();
+});
+$("#part7").click(function(){
+$("#part8").toggle();
+$("#part7").toggle();
+});
+$("#part8").click(function(){
+$("#part7").toggle();
+$("#part8").toggle();
+});
+$("#part9").click(function(){
+$("#part10").toggle();
+$("#part9").toggle();
+});
+$("#part10").click(function(){
+$("#part9").toggle();
+$("#part10").toggle();
+});
+    </script>
+  </body>
+</html>
